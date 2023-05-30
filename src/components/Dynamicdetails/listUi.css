@@ -1,0 +1,44 @@
+.PagiationUI ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.PagiationUI li{
+    padding:10px;
+    background-color: rgb(46, 14, 122);
+    color: #fff;
+    margin: 4px;
+    border-radius: 10px;
+    width: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.PagiationUI{
+    width: 50%;
+}
+
+
+.PagiationUI .selected{
+    padding:10px;
+    background-color: rgb(255, 77, 0);
+    color: #000;
+    margin: 4px;
+    border-radius: 10px;
+    width: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.PagiationUI li a{
+    
+    height: 100%;
+    width: 100%;
+}
